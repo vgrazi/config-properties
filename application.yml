@@ -1,17 +1,2 @@
-server:
-  port: 8080
-
-spring:
-  application:
-    name: config-client
-
-  cloud:
-    config:
-      uri: http://localhost:8888
-      fail-fast: true
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+config-client:
+  message: "Hello from the Config Server again!"

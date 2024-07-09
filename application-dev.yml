@@ -1,0 +1,2 @@
+config-client:
+  message: "Hello from the Dev Config Server!!"

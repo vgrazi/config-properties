@@ -1,2 +1,3 @@
 config-client:
-  message: "Hello from the Config Server!!"
+  message: "Hello from the Default Config Server!!"
+  from-base: "This is from the default profile"
